@@ -35,6 +35,7 @@ client.on('message', (messagea) => {
     messagea.channel.send("<@500076766996725760>")
   }
 }
+}
 try{
     actvc(messagea)
 }
@@ -42,7 +43,7 @@ catch{
     actvc(messagea)
 }
 
-}
+
 
 });
 
