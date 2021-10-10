@@ -54,7 +54,7 @@ catch{
 
 });
 
-client.on('message', (messageb) => {
+observer.on('message', (messageb) => {
 
     if (messageb.content.startsWith("stop")){
         global.mystatus = "0";
